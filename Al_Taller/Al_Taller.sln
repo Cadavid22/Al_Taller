@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Al_Taller.Backend", "Al_Taller.Backend\Al_Taller.Backend.csproj", "{C29308EF-6625-424C-B901-135EE35F8612}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Al_Taller.Backend", "Al_Taller.Backend\Al_Taller.Backend.csproj", "{C29308EF-6625-424C-B901-135EE35F8612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Al_Taller.Frontend", "Al_Taller.Frontend\Al_Taller.Frontend.csproj", "{A8559AC8-D104-4E54-AA36-FE77A0D79510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Al_Taller.Shared", "Al_Taller.Shared\Al_Taller.Shared.csproj", "{6D4B282E-C124-46D1-91FF-22D79F1DD791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Al_Taller.Tests", "Al_Taller.Tests\Al_Taller.Tests.csproj", "{B38BA9FB-3FFA-4737-88AC-85E0E1665278}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{C29308EF-6625-424C-B901-135EE35F8612}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C29308EF-6625-424C-B901-135EE35F8612}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C29308EF-6625-424C-B901-135EE35F8612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8559AC8-D104-4E54-AA36-FE77A0D79510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8559AC8-D104-4E54-AA36-FE77A0D79510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8559AC8-D104-4E54-AA36-FE77A0D79510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8559AC8-D104-4E54-AA36-FE77A0D79510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D4B282E-C124-46D1-91FF-22D79F1DD791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D4B282E-C124-46D1-91FF-22D79F1DD791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D4B282E-C124-46D1-91FF-22D79F1DD791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D4B282E-C124-46D1-91FF-22D79F1DD791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B38BA9FB-3FFA-4737-88AC-85E0E1665278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B38BA9FB-3FFA-4737-88AC-85E0E1665278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B38BA9FB-3FFA-4737-88AC-85E0E1665278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B38BA9FB-3FFA-4737-88AC-85E0E1665278}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
