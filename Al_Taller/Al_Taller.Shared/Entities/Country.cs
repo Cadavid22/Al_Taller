@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Timers;
 
 namespace Al_Taller.Shared.Entities
 {
-    internal class Country
-    {
+    public class Country
+    {   
+        public int Id {  get; set; }
+
+        [MaxLength(100)]
+        [Required(ErrorMessage = "El campo (0) no es requerido.")]
+        public string Name { get; set; } = null!;
     }
 }
